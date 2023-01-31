@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 49
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 51
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,7 +411,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffffe4750000
+      m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -786,11 +786,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.06543807, y: 0.12480017, z: -0.008229259, w: 0.99000216}
     speed: 2
-    m_Value: {x: 0.065437116, y: 0.12479835, z: -0.008229139, w: 0.98998773}
+    m_Value: {x: -0.06543807, y: -0.124800175, z: 0.008229259, w: -0.99000216}
   m_Size:
-    m_Target: 196.6138
+    m_Target: 730.4345
     speed: 2
-    m_Value: 196.6138
+    m_Value: 764.8529
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -886,22 +886,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Prfabs Elliot
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Prfabs Elliot
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Proyects\EndlessRunner\Endless Runner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: fa790000
-    m_LastClickedID: 31226
-    m_ExpandedIDs: 00000000ae760000ce76000000ca9a3b
+    m_SelectedIDs: f0750000
+    m_LastClickedID: 30192
+    m_ExpandedIDs: 00000000f075000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -929,7 +929,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae760000
+    m_ExpandedIDs: 00000000f0750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
