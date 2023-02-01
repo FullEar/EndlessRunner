@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33716342905654238}
   - component: {fileID: 23315483439079774}
   - component: {fileID: 64856128732573560}
+  - component: {fileID: 6480001276187292293}
   m_Layer: 0
   m_Name: SM_Ship_Bomber_04
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33716342905654238
 MeshFilter:
@@ -98,3 +99,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 123dbfedbb27f5546acc8df424faabc2, type: 3}
+--- !u!65 &6480001276187292293
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525581290968928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25.336542, y: 4.898194, z: 21.04888}
+  m_Center: {x: 0.0000023841856, y: -0.0000005960464, z: -0.00000095367426}
