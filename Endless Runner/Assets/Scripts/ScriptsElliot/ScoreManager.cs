@@ -23,8 +23,8 @@ public class ScoreManager : MonoBehaviour
             instance = this;
         }
 
-        DontDestroyOnLoad(this.gameObject);
-        gameObject.name = "$ScoreManager";
+        //DontDestroyOnLoad(this.gameObject);
+        //gameObject.name = "$ScoreManager";
     }
 
     public int score = 0;

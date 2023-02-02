@@ -13,7 +13,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("FirstLevel");
+        SceneManager.LoadScene("Animatic");
     }
 
     public void GunInventory()
