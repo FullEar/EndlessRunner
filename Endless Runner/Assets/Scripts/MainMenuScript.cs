@@ -13,7 +13,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("LevelSelection");
+        SceneManager.LoadScene("FirstLevel");
     }
 
     public void GunInventory()
