@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 33109357008064834}
   - component: {fileID: 23345093431150642}
   - component: {fileID: 64241473409998500}
+  - component: {fileID: 8353683891038384221}
+  - component: {fileID: -9154421910789975901}
+  - component: {fileID: 3181463081363615701}
   m_Layer: 0
   m_Name: SM_Env_Asteroid_Holes_05
   m_TagString: Untagged
@@ -93,8 +96,48 @@ MeshCollider:
   m_GameObject: {fileID: 1358865280516670}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8e977e30e3801b94192c9847f17a7224, type: 3}
+--- !u!114 &8353683891038384221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358865280516670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd59c28a01a06446903ca7661c6ab2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroySelf: 1
+  destroyObjects: []
+--- !u!114 &-9154421910789975901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358865280516670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0481339444fb9844abeee6ea3c7c845c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!135 &3181463081363615701
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358865280516670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.30208
+  m_Center: {x: 0, y: 0, z: 0.00000011920929}
