@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33716342905654238}
   - component: {fileID: 23315483439079774}
   - component: {fileID: 64856128732573560}
-  - component: {fileID: 6480001276187292293}
+  - component: {fileID: 4535485529485072236}
   m_Layer: 0
   m_Name: SM_Ship_Bomber_04
   m_TagString: Untagged
@@ -99,7 +99,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 123dbfedbb27f5546acc8df424faabc2, type: 3}
---- !u!65 &6480001276187292293
+--- !u!65 &4535485529485072236
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,5 +110,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 25.336542, y: 4.898194, z: 21.04888}
-  m_Center: {x: 0.0000023841856, y: -0.0000005960464, z: -0.00000095367426}
+  m_Size: {x: 22.464787, y: 4.8981943, z: 19.275805}
+  m_Center: {x: 0.0000023841856, y: -0.0000021271408, z: -0.000002861023}
